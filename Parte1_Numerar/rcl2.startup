@@ -1,0 +1,6 @@
+ifconfig eth0 23.23.27.1 up
+ifconfig eth1 20.23.32.0 up
+ifconfig eth2 23.23.32.1 up
+
+
+

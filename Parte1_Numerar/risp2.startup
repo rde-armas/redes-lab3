@@ -1,0 +1,10 @@
+ifconfig eth0 23.23.25.1 up
+ifconfig eth1 23.23.26.1 up
+ifconfig eth1 23.23.27.0 up
+
+
+#route add -net 23.23.28.0 netmask 255.255.255.0 gw dev 23.23.26.0 eth1 no va por redes privadas 
+#ifconfig eth0 23.23.25.1 netmask 255.255.255.252 broadcast 23.23.25.3 up
+#ifconfig eth1 23.23.26.1 netmask 255.255.255.252 broadcast 23.23.26.3 up
+#ifconfig eth2 23.23.27.0 netmask 255.255.255.252 broadcast 23.23.27.3 up
+

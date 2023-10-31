@@ -1,0 +1,9 @@
+#interfaz con rcl2
+ifconfig eth0 20.23.32.2 up
+ifconfig eth1 23.23.27.3 up
+
+#interfaz con clientes
+ifconfig eth2 20.23.32.4 up
+ifconfig eth3 23.23.27.5 up
+ifconfig eth4 20.23.32.128 up
+
