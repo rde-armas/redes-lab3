@@ -1,0 +1,3 @@
+ifconfig eth0 20.23.33.2 up
+
+route add default gw 20.23.33.0 dev eth0
