@@ -3,5 +3,5 @@ ifconfig eth0 20.23.33.1 netmask 255.255.255.0 broadcast 20.23.33.255 up
 
 route add default gw 20.23.33.0 dev eth0
 
-iptables -A FORWARD -d 192.168.0.0/24 -j DROP
+iptables -A FORWARD -s 20.23.33.0/24 -j DROP
 iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -o eth0 -j SNAT --to 20.23.33.1

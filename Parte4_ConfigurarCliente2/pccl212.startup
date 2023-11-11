@@ -1,0 +1,4 @@
+ifconfig eth0 20.23.32.3 netmask 255.255.255.128 up
+ifconfig eth0 hw ether 00:00:00:00:00:01
+
+route add default gw 20.23.32.0 dev eth0
