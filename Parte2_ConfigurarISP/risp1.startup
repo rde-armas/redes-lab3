@@ -4,3 +4,4 @@ ifconfig eth2 192.168.0.4 netmask 255.255.255.252 up
 /etc/init.d/quagga start
 
 route add default gw 23.23.24.0 dev eth0
+route add -net 20.23.33.0 netmask 255.255.255.0 gw 192.168.0.5 dev eth2 
