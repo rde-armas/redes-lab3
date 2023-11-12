@@ -1,0 +1,3 @@
+ripd=yes
+bgpd=yes
+zebra=yes
